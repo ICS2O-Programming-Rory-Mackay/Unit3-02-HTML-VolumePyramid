@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Ms Raffin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav1/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav1/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav1/favicon-16x16.png">
+    <link rel="manifest" href="./fav1/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculate Volume of a Triangular Pyramid in Javascript</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Calculate Volume of a Triangular Pyramid in Javascript</h1>
+		<h3>Enter pyramid dimensions below</h3>
+		<form action="javascript:calculateVolume()">
+		<label for="side-a">Enter side length in meters</label>
+		<input type="number" step="any" id="side-a" placeholder="Enter side a length"><br><br>
+		<label for="height">Enter height in meters:</label>
+		<input type="number" step="any" id="height" placeholder="Enter height"><br><br>
+		<input type="submit" value="Calculate">
+	</form>
+	<img src="./images/volume.png" alt="Pyramid" width="15%" height="15%"/>
+		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+			<div id="volume">
+			</div>
+		</div>
+  </body>
+</html>
