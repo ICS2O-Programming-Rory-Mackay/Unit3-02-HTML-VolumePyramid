@@ -11,11 +11,11 @@
 function calculateVolume () {
   // get user input
   let side_a = parseFloat(document.getElementById('side-a').value)
-	let height = parseFloat(document.getElementById('height').value)
-
+	let side_b = parseFloat(document.getElementById('side-b').value)
+  let height = parseFloat(document.getElementById('height').value)
 
   // calculate the volume
-  let volume = (1/3) * Math.pow(side_a,2) * height 
+  let volume = (1/6) * side_a * side_b * height 
 
   // display the results
   document.getElementById('volume').innerHTML = "The volume is " + volume.toFixed(2) + "m<sup>3</sup>"

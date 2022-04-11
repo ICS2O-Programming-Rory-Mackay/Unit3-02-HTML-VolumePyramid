@@ -18,13 +18,16 @@
     <h1>Calculate Volume of a Triangular Pyramid in Javascript</h1>
 		<h3>Enter pyramid dimensions below</h3>
 		<form action="javascript:calculateVolume()">
-		<label for="side-a">Enter side length in meters</label>
+		<label for="side-a">Enter height of base in meters (a)</label>
 		<input type="number" step="any" id="side-a" placeholder="Enter side a length"><br><br>
+		<label for="side-a">Enter base side length in meters (b)</label>
+		<input type="number" step="any" id="side-b" placeholder="Enter side b length"><br><br>
 		<label for="height">Enter height in meters:</label>
 		<input type="number" step="any" id="height" placeholder="Enter height"><br><br>
 		<input type="submit" value="Calculate">
 	</form>
-	<img src="./images/volume.png" alt="Pyramid" width="15%" height="15%"/>
+    <br>
+	<img src="./images/formtripyramid.png" alt="Pyramid" width="15%" height="15%"/>
 		<!-- Create a space where the user information will be displayed -->
 		<div id="display-results">
 			<div id="volume">
